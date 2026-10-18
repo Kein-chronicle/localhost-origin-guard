@@ -1,0 +1,39 @@
+{
+  "name": "localhost-origin-guard",
+  "version": "0.1.1",
+  "description": "Allow a browser app to talk to your local agent or bridge only if the Host is exact loopback and the Origin is explicitly allow-listed.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./scripts/guard.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/run.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "security",
+    "localhost",
+    "cors",
+    "dns-rebinding",
+    "websocket",
+    "javascript",
+    "esm",
+    "zero-dependencies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kein-chronicle/localhost-origin-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kein-chronicle/localhost-origin-guard/issues"
+  },
+  "homepage": "https://github.com/Kein-chronicle/localhost-origin-guard#readme"
+}
